@@ -1,0 +1,24 @@
+
+➡️ 1.  views/ 
+    ➡️ Purpose: User interface ka code rakhte hain.
+    ➡️ Work: Isme application ka flow manage hota hai, jaise user ka login,
+    signup aur file operations (show, hide, unhide files).
+
+➡️ 2.  dao/ 
+    ➡️ Purpose: Data Access Object (DAO) jo database se interact karta hai.
+    ➡️ Work: Database se data fetch karna, users ko save karna, files ko hide/unhide karna.
+
+➡️ 3.  db/ 
+    ➡️ Purpose: Database connection manage karna.
+    ➡️ Work: MySQL se connect karne aur connection close karne ke methods provide karta hai.
+
+➡️ 4.  model/ 
+    ➡️ Purpose: Data models/structures define karta hai.
+    ➡️ Work:  User  aur  File  objects ki fields ko define karta hai (jaise name, email, file path, etc.) jo database ke saath interact karte hain.
+
+➡️ 5.  service/ 
+    ➡️ Purpose: Business logic aur utility functions rakhte hain.
+    ➡️ Work: 
+      ➡️ GenerateOTP: Random OTP generate karta hai authentication ke liye.
+      ➡️ SendOTPService: JavaMail API se OTP email bhejta hai.
+      ➡️ UserService: User registration manage karta hai aur check karta hai agar user pehle se exist karta hai.
